@@ -1,11 +1,13 @@
+import { UiFlex } from 'components/atoms/layouts';
 import BoardMask from 'components/molecules/boardMask';
-import { Fragment } from 'react';
+import CardFilter from 'components/molecules/cardFilter';
 
 const LandingHightlight = () => {
   return (
-    <Fragment>
+    <UiFlex gap={6} flexDirection="column">
       <BoardMask />
-    </Fragment>
+      <CardFilter />
+    </UiFlex>
   );
 };
 
