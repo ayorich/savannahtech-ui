@@ -8,7 +8,7 @@ type PageTemplateProps = {
 const PageTemplate: FC<PageTemplateProps> = ({ children }) => {
   return (
     <UiContainer centerContent bg="#f7f8fd" maxW="full" minH="100vh" h="100vh">
-      <UiBox w="80%" py="94px" h="full">
+      <UiBox w={{ md: '90%', lg: '80%' }} py="94px" h="full">
         {children}
       </UiBox>
     </UiContainer>

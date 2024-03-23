@@ -6,10 +6,10 @@ const LandingPage = () => {
   return (
     <PageTemplate>
       <UiGrid templateColumns="1fr 3fr" gap="30px">
-        <UiBox style={{ border: '1px solid red' }}>
+        <UiBox>
           <LandingHightlight />
         </UiBox>
-        <UiBox bg="tomato">hhh</UiBox>
+        <UiBox style={{ border: '1px solid red' }}>hhh</UiBox>
       </UiGrid>
     </PageTemplate>
   );
