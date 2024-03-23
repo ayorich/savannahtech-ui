@@ -6,7 +6,7 @@ const RoadMap = () => {
   return (
     <UiBox w="full" bg="#fff" borderRadius="10px" p={6}>
       <UiFlex justifyContent="space-between" alignItems="center" mb={3}>
-        <UiHeading as="h6" size="md" color="#3a4374">
+        <UiHeading as="h6" fontSize="18px" color="#3a4374">
           Roadmap
         </UiHeading>
         <UiButton color="#4661e6" variant="link" textDecoration="underline">
