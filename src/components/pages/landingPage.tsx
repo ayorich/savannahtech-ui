@@ -10,7 +10,7 @@ const LandingPage = () => {
         <UiBox>
           <LandingHightlight />
         </UiBox>
-        <UiBox style={{ border: '1px solid red' }}>
+        <UiBox>
           <LandingSuggestion />
         </UiBox>
       </UiGrid>

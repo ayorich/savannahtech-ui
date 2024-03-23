@@ -16,6 +16,7 @@ const FilterTag: FC<FilterTagProps> = (props) => {
       py="6px"
       fontWeight="600"
       borderRadius="10px"
+      textTransform="capitalize"
       {...rest}
     >
       {label}
